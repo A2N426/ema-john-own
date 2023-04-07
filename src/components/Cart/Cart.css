@@ -1,0 +1,6 @@
+.cart{
+    background-color: rgba(255, 153, 0, 0.3);;
+    position: sticky;
+    bottom: 0;
+    padding: 30px;
+}
