@@ -1,0 +1,13 @@
+.form-container{
+    margin: 20px auto;
+    height: 400px;
+    width: 300px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.form-control input{
+    margin-bottom: 30px;
+}
+.form-control{
+    padding: 0 40px 0 40px;
+}

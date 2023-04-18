@@ -1,6 +1,38 @@
-.cart{
-    background-color: rgba(255, 153, 0, 0.3);;
+.cart {
+    background-color: rgba(255, 153, 0, 0.3);
+    ;
     position: sticky;
     bottom: 0;
     padding: 30px;
+}
+
+.btn-clear {
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    height: 56px;
+    background: #FF3030;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+}
+.link-style{
+    text-decoration: none;
+}
+.proceed-btn {
+    background: #FF9900;
+    border-radius: 4px;
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    height: 56px;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
 }

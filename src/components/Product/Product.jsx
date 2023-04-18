@@ -11,10 +11,10 @@ const Product = (props) => {
             <img src={img} alt="" />
             <div className='product-info'>
                 <h4>{name}</h4>
-                <p>{price}</p>
+                <p>Price: ${price}</p>
                 <p>{seller}</p>
             </div>
-            <button onClick={() => handleAddToCart(props.product)} className='btn-cart'>Add To Cart const element  <FontAwesomeIcon icon={faShoppingCart} /></button>
+            <button onClick={() => handleAddToCart(props.product)} className='btn-cart'>Add To Cart  <FontAwesomeIcon icon={faShoppingCart} /></button>
         </div>
     );
 };
